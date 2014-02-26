@@ -1,5 +1,6 @@
 puts ">>>>>>>>>>>>>>>>>"
 puts ">>>>>>>>>>>>>>>>> In after restart!!! ....."
+puts ">>>>>>>>>>>>>>>>> #{self.class}"
 puts ">>>>>>>>>>>>>>>>>"
 
 Chef::Log.info "In after restart!!! ....."
