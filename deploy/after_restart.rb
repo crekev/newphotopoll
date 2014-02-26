@@ -11,5 +11,5 @@ curl = "wget https://opsworks-instance-assets-staging.s3.amazonaws.com/sources/n
 
 Chef::Log.info(curl)
 until (`#{curl}`.to_i == 200 )
-  Chef::Log.info("Exchange failed after(#{try}) #{curl}")
+  Chef::Log.info("Exchange failed after(#{curl}")
 end
